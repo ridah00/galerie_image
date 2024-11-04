@@ -1,0 +1,20 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+  background-image: url(../images/bg.jpg);
+}
+h1{
+  text-align: center;
+  color: green;
+}
+.galerie{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img{
+  border: 0.15rem,solid,white;
+  width:10rem;
+  height: 10rem;
+  object-fit:cover;
+}
